@@ -40,7 +40,7 @@ public class OSMMap {
 	 * @param args
 	 *            command line arguments
 	 */
-	public static void main2(String[] args) {
+	public static void testTotalDistance(String[] args) {
 		OSMMap testMap = new OSMMap();
 		testMap.LoadMap("src/cs311/hw8/graphalgorithms/AmesMap.txt");
 		System.out.println(testMap.TotalDistance());
@@ -54,7 +54,7 @@ public class OSMMap {
 	 *            command line arguments, args[0] for map data and args[1] for
 	 *            locations
 	 */
-	public static void main3(String[] args) {
+	public static void testShortestRoute(String[] args) {
 
 		// load map
 		OSMMap testMap = new OSMMap();
